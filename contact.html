@@ -9,7 +9,13 @@
 </head>
 <body>
     <header>
+        <div class="logo"> 
+            <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/1030px-Seal_of_the_United_States_House_of_Representatives.svg.png" alt="logo">
+            <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/1030px-Seal_of_the_United_States_House_of_Representatives.svg.png" alt="logo">
+            <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/1030px-Seal_of_the_United_States_House_of_Representatives.svg.png" alt="logo">
+        </div>
         <h1>Representative for Tennessee's 4th District</h1>
+        </div>
         <nav>
             <ul class="navbar">
                 <li class="home"><a href="index.html">Home</a></li>
@@ -19,6 +25,27 @@
               </ul>
         </nav>
     </header>
+    <main>
+        <h2>Email Me! </h2>
+        <form method="post" action="send_mail.php">
+            <p>
+            <label>First Name
+            <input type="text" name="first_name" required>
+            </label> 
+            </p>
+            <p>
+            <label>Email 
+            <input type="email" name="email_address">
+            </label>
+            </p>
+            <p>
+            <label>Comments
+            <textarea name="comments" maxlength="500"></textarea>
+            </label>
+            </p>
+            <p><button>Submit the form</button></p>
+            </form>
+    </main>
 
     
 </body>
